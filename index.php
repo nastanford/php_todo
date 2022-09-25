@@ -11,16 +11,13 @@
   <title>ToDo List</title>
 </head>
 <body>
-
 <?php 
-  echo "\n<ul/>\n";
+  echo "<ul/>";
   // loop through data  
   foreach ($items as $item) {
-    echo "\t<li>".$item['title'] . "</li>\n";
+    echo "<li>".$item['title'] . "</li>";
   }
-  echo "</ul>\n";
+  echo "</ul>";
 ?>
-
-  
 </body>
 </html>
